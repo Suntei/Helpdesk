@@ -92,4 +92,4 @@ Route::middleware(['auth', 'role:technician'])->group(function () {
 
 // Include Laravel's authentication routes
 require __DIR__.'/auth.php';
-//URL::forceScheme('https');
+URL::forceScheme('https');
